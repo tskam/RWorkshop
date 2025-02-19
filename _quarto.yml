@@ -11,7 +11,7 @@ website:
         href: Hands-on_Ex07.html
     - text: "Now You See It"
       href: xxx.html
-    - text: "INtroduction to QGIS"
+    - text: "Introduction to QGIS"
       href: xxx.html
     right:
       - href: index.qmd
