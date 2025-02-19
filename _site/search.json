@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R Series Workshop",
+    "section": "",
+    "text": "This is SMU Library Bite-sized R Series Workshop website."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to R Series Workshop."
+  },
+  {
+    "objectID": "Hands-on_Ex07.html#why-you-are-here",
+    "href": "Hands-on_Ex07.html#why-you-are-here",
+    "title": "R Series Session 7",
+    "section": "Why you are here?",
+    "text": "Why you are here?\nBecause you are:\n\n\ntired of creating PowerPoint slides.\ninterested to create awesome web slides using R."
+  },
+  {
+    "objectID": "Hands-on_Ex07.html#halo-plot",
+    "href": "Hands-on_Ex07.html#halo-plot",
+    "title": "R Series Session 7",
+    "section": "Halo Plot",
+    "text": "Halo Plot"
+  },
+  {
+    "objectID": "Hands-on_Ex07.html#slide-with-tabsets",
+    "href": "Hands-on_Ex07.html#slide-with-tabsets",
+    "title": "R Series Session 7",
+    "section": "Slide with Tabsets",
+    "text": "Slide with Tabsets\n\nThe code chunkThe plot\n\n\n\n\npacman::p_load(tidyverse)\nexam_data &lt;- read.csv(\"data/Exam_data.csv\")\n\nggplot(data = exam_data,\n       aes(x = MATHS)) +\n  geom_histogram(bins = 10,\n                 boundary = 100,\n                 color = \"black\",\n                 fill = \"light blue\") +\n  ggtitle(\"Distribution of Maths scores\")"
+  },
+  {
+    "objectID": "Hands-on_Ex07.html#how-about-displaying-data-table",
+    "href": "Hands-on_Ex07.html#how-about-displaying-data-table",
+    "title": "R Series Session 7",
+    "section": "How about displaying data table",
+    "text": "How about displaying data table\n\n\n\n\n\nID\nCLASS\nGENDER\nRACE\nENGLISH\nMATHS\nSCIENCE\n\n\n\n\nStudent321\n3I\nMale\nMalay\n21\n9\n15\n\n\nStudent305\n3I\nFemale\nMalay\n24\n22\n16\n\n\nStudent289\n3H\nMale\nChinese\n26\n16\n16\n\n\nStudent227\n3F\nMale\nChinese\n27\n77\n31\n\n\nStudent318\n3I\nMale\nMalay\n27\n11\n25\n\n\nStudent306\n3I\nFemale\nMalay\n31\n16\n16\n\n\nStudent313\n3I\nMale\nChinese\n31\n21\n25\n\n\nStudent316\n3I\nMale\nMalay\n31\n18\n27\n\n\nStudent312\n3I\nMale\nMalay\n33\n19\n15\n\n\nStudent297\n3H\nMale\nIndian\n34\n49\n37"
+  },
+  {
+    "objectID": "Hands-on_Ex07.html#interactive-table",
+    "href": "Hands-on_Ex07.html#interactive-table",
+    "title": "R Series Session 7",
+    "section": "Interactive table",
+    "text": "Interactive table"
+  }
+]
